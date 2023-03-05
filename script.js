@@ -1,5 +1,4 @@
-
-	function convertPercentageToGrade(percentage) {
+function convertPercentageToGrade(percentage) {
   if (isNaN(percentage) || percentage < 0) {
     return "F";
   }
@@ -16,7 +15,3 @@
     return "F";
   }
 }
-
-}
-const percentage = parseInt(prompt("Enter Percentage."));
-alert(convertPercentageToGrade(percentage));
